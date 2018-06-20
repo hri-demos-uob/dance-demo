@@ -103,43 +103,61 @@ from naoqi import ALProxy
 from pprint import pprint
 
 def main(robotIP, PORT=9559):
-    """ Simple code to test above motion data. """
-    # Choregraphe simplified export in Python.
-    motion  = ALProxy("ALMotion", robotIP, PORT)
-    posture = ALProxy("ALRobotPosture", robotIP, PORT)
+    	""" Simple code to test above motion data. """
+    	# Choregraphe simplified export in Python.
+    	motion  = ALProxy("ALMotion", robotIP, PORT)
+    	posture = ALProxy("ALRobotPosture", robotIP, PORT)
+	ttsProxy = ALProxy("ALTextToSpeech", robotIP, PORT)
+	asp = ALProxy('ALAnimatedSpeech', robotIP, PORT)
+    
+	#conf={'bodyLanguageMode':'contextual'}
+	#asp.say('Hello, I am Nao', conf)
 
-    testList = ArmMovementList
+    	asp.say("Hiya, My name is super NAO")
+    	asp.say("You are going to imitate the following upper arm movements")
+    	asp.say("Are you ready?")
+    	asp.say("Let's start")
 
-    bezier = True
+	
 
-    motion.wakeUp()
-    # posture.goToPosture("StandInit", 0.8)
-
-
-    for i in range(len(testList)):
-        names = list()
-        times = list()
-        keys = list()
-
-        for n, t, k in testList[i]:
-            names.append(n)
-            times.append(t)
-            keys.append(k)
-
-        if bezier:
-            motion.angleInterpolationBezier(names, times, keys)
-        else:
-            motion.angleInterpolation(names, keys, times, True)
+	testList = ArmMovementList
+	bezier = True
+	
+ 	motion.wakeUp()
+   	 # posture.goToPosture("StandInit", 0.8)
 
 
-    # Go to rest position
-    motion.rest()
+    	for i in range(len(testList)):
+        	names = list()
+        	times = list()
+        	keys = list()
+	
+	for n, t, k in testList[i]:
+        	names.append(n)
+            	times.append(t)
+            	keys.append(k)
+	
+	if bezier:
+        	motion.angleInterpolationBezier(names, times, keys)
+	else:
+		motion.angleInterpolation(names, keys, times, True)
+
+
+    	# Go to rest position
+    	motion.rest()
+
+	ttsProxy.say("Wow ")
+    	ttsProxy.say('That was cool!')
+    	ttsProxy.say("Thank you very much")
+
 
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--ip", type=str, default="169.254.199.42", help="Robot ip address")
-    parser.add_argument("--port", type=int, default=9559, help="Robot port number")
-    args = parser.parse_args()
-    main(args.ip, args.port)
+	parser = argparse.ArgumentParser()
+    	parser.add_argument("--ip", type=str, default="169.254.199.42", help="Robot ip address")
+    	parser.add_argument("--port", type=int, default=9559, help="Robot port number")
+    	args = parser.parse_args()
+    	main(args.ip, args.port)
+
+

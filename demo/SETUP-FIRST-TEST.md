@@ -1,6 +1,7 @@
 CHECKLIST FOR THE OPENDAY DEMO AT UNIVERSITY OF BIRMINGHAM
 ---
 
+
 One important variable is the number of version of the demo.
 
 * v02 for the 9th of September 2017 (~/tmp/openday_v02).
@@ -34,6 +35,7 @@ main_data_stream_path: /home/map479/tmp/openday_v03
 3000 samples ~ 60 seconds  
 
 
+
 # NAO
 
 The boot process is completed when NAO says “OGNAK GNOUK” and it takes around
@@ -42,10 +44,11 @@ The boot process is completed when NAO says “OGNAK GNOUK” and it takes aroun
 and open a terminal to execute nao's movements with the python script.
 
 ## TERMINAL 1
-```
 
+```
 cd ~/mxochicale/github/opendayuob-hridemo/nao_arm_movements/python_animation
-./TenUpperArmMovements_changingspeed.py
+
+sleep 5 && ./TenUpperArmMovements_changingspeed.py
 
 ```
 
@@ -62,9 +65,9 @@ is 34 seconds.
 
 1. Turn on Razor sensors (wait 2 seconds to let them reboot)
 
-2. bind bluetooth modules to rfcommN ports, where N is the number of port
-
 ## TERMINAL 2 
+
+2. bind bluetooth modules to rfcommN ports, where N is the number of port
 
 ```
 cd ~/mxochicale/github/ros/bluetooth_dev_conf/automatic_connection && ./bind_four_automatic_connection_ubuntu1604.sh && sleep 15
@@ -76,6 +79,7 @@ In case of "Can't create device: Operation not permitted" run this:
 `sudo chmod u+s /usr/bin/rfcomm`
 
 
+3. Collect data with ros
 
 Once the bluetooth modules have been binded, you can launch the app
 
@@ -84,19 +88,24 @@ roslaunch razor_imu_9dof razor-pub-four-imus.launch
 ```
 booting sensors takes around 15 to 20 seconds
 
+4. Stop data collection
 
 Then press 'crtl-c' in the terminal
 
 
-3. release bluetooth modules from  the rfcommN ports, 
+5. release bluetooth modules from  the rfcommN ports, 
 where N is the number of ports
-
 
 ```
 cd ~/mxochicale/github/ros/bluetooth_dev_conf/automatic_connection && ./release_four_automatic_connection_ubuntu1604.sh
 ```
 
-4. Turn off sensors
+6. Turn off sensors
+
+Starting from sensor4, sensor3, sensor2 and sensor1
+
+
+
 
 
 
@@ -109,15 +118,22 @@ video files.
 ## TERMINAL 3
 
 ```
-cd ~/mxochicale/github/opendayuob-hridemo/running-demo
-sleep 10 && ./openface_pNN.sh pNNgXXaNN
+cd ~/mxochicale/github/opendayuob-hridemo/demo && sleep 10 && ./openface_pNN.sh pNNgXXaNN
 ```
 sleep 10 seconds to wait for the 15 seconds for the imus to boot
 
-Press `ctr-q` in the video window to exit
+Press `ctrl-q` in the video window to exit
+
+then the script will compute the landmarks of the video
+and replay the video with facelandmarks
+Press `ctrl-q` to exit
 
 
+# DATA PATHS
 
+```
+cd /home/map479/tmp/openday_v03
+```
 
 #  REFERENCES
 
@@ -135,3 +151,6 @@ which is recommended to have a piece of paper to write down the participant numb
 which might be part of the general check list.
 * It would be nice to program the robot with some voice commands while the user
 is waiting for the sensors seeting up in ROS
+
+
+
