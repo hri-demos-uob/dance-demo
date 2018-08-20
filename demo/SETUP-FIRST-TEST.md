@@ -135,7 +135,7 @@ Press `ctrl-q` to exit
 cd /home/map479/tmp/openday_v03
 ```
 
-#  REFERENCES
+#  REFERENCE
 
 [1] [automatic_connection](https://github.com/mxochicale/ros/tree/master/bluetooth_dev_conf/automatic_connection)  
 [2] Further information about package configuration [mx_razor_imu_9dof/catkin_ws](https://github.com/mxochicale/ros/tree/master/mx_razor_imu_9dof/catkin_ws)  

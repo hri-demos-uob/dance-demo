@@ -1,11 +1,15 @@
 
+* https://twitter.com/_mxochicale/status/1010438307023646720
 
-*
+```
+Join us at the Undergraduate Open Days #hellobrum! 
+& be part of the 4th Industrial Revolution @UniBirmingham @eps_bham 
+where you can not only study #Mechatronics, #Robotics & #AI but also 
+be at the frontier of innovations in such promising areas
 
-Join us at Undergraduate Open Days #hellobrum! &
-Be part of the Fourth Industrial Revolution @UniBirmingham @eps_bham
-where you can not only study Mechatronics, Robotics and AI but also 
-innovate in those areas!
+```
+1:24 am - 23 Jun 2018
+
 
 
 

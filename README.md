@@ -1,19 +1,21 @@
-HRI DEMO FOR THE OPENDAY AT UNIVERSITY OF BIRMINGHAM
+Human-Robot Interaction Demonstration for the *OPENDAY* at University of Birmingham
 ---
 
-This repository is aimed to those who want to learn more about the Human-Robot
-Interaction Demo at the OpenDays at University of Birmingham. Such demo is a
-sort of a dance interaction with a NAO humanoid robot where an user 
-in a face-to-face interaction imitates what the robot does. 
-Esentially users mirror/imitate 10 arm upper movements.
+This repository is aimed for those who want to learn more about the Human-Robot
+Interaction Demo at the OpenDays at University of Birmingham. The demonstration
+is about a human-humanoid dance interaction with a NAO humanoid robot. 
+In the interaction, a person in a face-to-face interaction imitates 
+what the robot does. Essentially users mirror or imitate 10 arm upper 
+movements.
 
-In order to keep anonimalised the data from the users with NAO,
-just the landmark and head pose and gaze eye estimation and internital sensor
-time series are used for data analysis.
+*NOTE* Video were recorded to detect head pose estimation of the participants
+using [OpenFace framework](https://github.com/TadasBaltrusaitis/OpenFace).
+However, data is not available for neither publication nor analysis.
 
 
-Miguel P Xochicale
-Birmingham, UK
-June 2018
+# Contact
+If you have any specific questions about the information of this repository, you can contact [Miguel P Xochicale](https://mxochicale.github.io/).
+If your question might be relevant to other people, please instead open an [issue](https://github.com/mxochicale/opendayuob-hridemo/issues).
+
 
 
