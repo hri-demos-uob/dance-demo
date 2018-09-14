@@ -1,4 +1,30 @@
 
+
+
+*
+
+Join us at the Undergraduate Open Days #hellobrum!
+'' Study #Mechatronic, #Robotic & #AI Engineering and make our mother Earth a better place ''
+  @NaoRobot @unibirmingham @SchoolofEng_UoB @eps_unibham
+
+MORE: https://github.com/mxochicale/opendayuob-hridemo
+
+
+
+
+
+* https://twitter.com/_mxochicale/status/1040031489533112320 
+
+This Saturday 15/09, @NaoRobot and I will be inspiring the next generation of Engineers at the Undergraduate Open Days #hellobrum!  "The mission is to make the world a better place with #Mechatronics, #Robotics & #AI " @SchoolofEng_UoB 
+MORE: https://github.com/mxochicale/opendayuob-hridemo
+
+Thu Sep 13 01:22:35 BST 2018
+
+
+
+
+
+
 * https://twitter.com/_mxochicale/status/1010438307023646720
 
 ```

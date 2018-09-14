@@ -1,12 +1,12 @@
-CHECKLIST FOR THE OPENDAY DEMO AT UNIVERSITY OF BIRMINGHAM
+Setup for the first test of the demo
 ---
 
 
 One important variable is the number of version of the demo.
 
-* v02 for the 9th of September 2017 (~/tmp/openday_v02).
-* v03 for the 22th 23th of June 2018 (~/tmp/openday_v03).
-
+* v04 for the 15th of September 2018 (~/tmp/openday_v04)
+* v03 for the 22th 23th of June 2018 (~/tmp/openday_v03)
+* v02 for the 9th of September 2017 (~/tmp/openday_v02)
 
 
 # Setting Up
@@ -14,7 +14,7 @@ One important variable is the number of version of the demo.
 1. Create path to save data
 
 ```
-mkdir -p ~/tmp/openday_v03
+mkdir -p ~/tmp/openday_v04
 ```
 
 2. tune the following parameters for the `~/catkin_ws/src/razor_imu_9dof/config/razor*.yaml` [2]
@@ -28,7 +28,7 @@ vim  ~/catkin_ws/src/razor_imu_9dof/config/razor4.yaml
 
 ```
 number_of_samples: 2000
-main_data_stream_path: /home/map479/tmp/openday_v03
+main_data_stream_path: /home/map479/tmp/openday_v04
 ```
 1000 samples ~ 20 seconds;   
 2000 samples ~ 40 seconds;   
@@ -47,7 +47,6 @@ and open a terminal to execute nao's movements with the python script.
 
 ```
 cd ~/mxochicale/github/opendayuob-hridemo/nao_arm_movements/python_animation
-
 sleep 5 && ./TenUpperArmMovements_changingspeed.py
 
 ```
@@ -132,7 +131,7 @@ Press `ctrl-q` to exit
 # DATA PATHS
 
 ```
-cd /home/map479/tmp/openday_v03
+cd /home/map479/tmp/openday_v04
 ```
 
 #  REFERENCE
@@ -141,16 +140,6 @@ cd /home/map479/tmp/openday_v03
 [2] Further information about package configuration [mx_razor_imu_9dof/catkin_ws](https://github.com/mxochicale/ros/tree/master/mx_razor_imu_9dof/catkin_ws)  
 [3] https://github.com/mxochicale/openface  
 
-
-
-
-## RECOMMENDATIONS AND OBSERVATIONS for the next /openday_v03
-
-* When a new user start the experiment, the labels for partcipants were wrong for
-which is recommended to have a piece of paper to write down the participant number
-which might be part of the general check list.
-* It would be nice to program the robot with some voice commands while the user
-is waiting for the sensors seeting up in ROS
 
 
 
