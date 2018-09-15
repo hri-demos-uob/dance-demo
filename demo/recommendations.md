@@ -4,6 +4,10 @@
 
 ## RECOMMENDATIONS AND OBSERVATIONS for the next /openday_v04
 
+* Use a piece of paper to registers number particpants and avoid
+replacement of data
+
+
 
 ## RECOMMENDATIONS AND OBSERVATIONS for the next /openday_v03
 
