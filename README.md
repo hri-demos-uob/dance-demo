@@ -6,10 +6,10 @@ Interaction Demo at the OpenDays at University of Birmingham. The demonstration
 is about a human-humanoid dance interaction with a NAO humanoid robot. 
 In the interaction, a person in a face-to-face interaction imitates 
 what the robot does. Essentially users mirror or imitate 10 arm upper 
-movements.
+movements with increment and decrement of its velocity. 
 
 
-[![title](https://raw.githubusercontent.com/mxochicale/opendayuob-hridemo/master/docs/images/main/main.png)](https://raw.githubusercontent.com/mxochicale/openday-hridemo/master/docs/abstrac/abstract.pdf)
+[![title](https://raw.githubusercontent.com/mxochicale/opendayuob-hridemo/master/docs/images/main/main.png)](https://github.com/mxochicale/opendayuob-hridemo/blob/master/docs/abstract/abstract.pdf)
 
 
 **NB** Video were recorded to detect head pose estimation of the participants

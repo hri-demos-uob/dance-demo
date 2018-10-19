@@ -5,13 +5,14 @@ General Checklist
 # Terminals
 Open four terminals
 
-* T1. for imus with three tabs
-	* Tab1. Binding ports for IMUS
+## T1. for imus with three tabs 
+
+* Tab1. Binding ports for IMUS
 ```
 cd ~/mxochicale/github/ros/bluetooth_dev_conf/automatic_connection && ./bind_four_automatic_connection_ubuntu1604.sh && sleep 15
 ```
 
-	* Tab2. roslauch
+* Tab2. roslauch
 
 ```
 roslaunch razor_imu_9dof razor-pub-four-imus.launch
@@ -24,7 +25,7 @@ roslaunch razor_imu_9dof razor-pub-four-imus.launch
 cd ~/mxochicale/github/ros/bluetooth_dev_conf/automatic_connection && ./release_four_automatic_connection_ubuntu1604.sh
 ```
 
-* T2. for openface
+## T2. for openface
 
 ```
 cd ~/mxochicale/github/opendayuob-hridemo/demo && sleep 10 && ./openface_pNN.sh pNNgXXaNN
@@ -32,27 +33,25 @@ cd ~/mxochicale/github/opendayuob-hridemo/demo && sleep 10 && ./openface_pNN.sh 
 
 
 
-* T3. for nao
+## T3. for nao
 
 
 ```
-cd ~/mxochicale/github/opendayuob-hridemo/nao_arm_movements/python_animation
-sleep 5 && ./TenUpperArmMovements_changingspeed.py
-
+cd ~/mxochicale/github/opendayuob-hridemo/nao_arm_movements/python_animation && sleep 5 && ./TenUpperArmMovements_changingspeed.py
 ```
 
 
-* T4. for extra notes and datapath
+## T4. for extra notes and datapath
 
 ```
-cd /home/map479/tmp/openday_v04
+cd /home/map479/tmp/openday_v05
 ```
 
 
 
 
 
-# Check List
+# General Check List
 
 1. Turn on IMUs
 2. Bind them

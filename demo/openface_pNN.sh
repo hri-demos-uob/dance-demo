@@ -14,7 +14,7 @@
 pNNgXXaNN=$1
 echo "Participant $pNNgXXaNN"
 
-cd /home/map479/tmp/openday_v04 && mkdir -p openface && cd openface
+cd /home/map479/tmp/openday_v05 && mkdir -p openface && cd openface
 mkdir -p $pNNgXXaNN && cd $pNNgXXaNN
 ~/OpenFace/build/bin/./Record    #[Q to exit]
 ~/OpenFace/build/bin/./FaceLandmarkVid -f out.avi -ov "flvid.avi"
