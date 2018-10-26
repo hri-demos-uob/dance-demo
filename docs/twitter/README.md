@@ -1,6 +1,6 @@
 
 
-
+* https://twitter.com/_mxochicale/status/1053554622940495872
 
 
 ```
@@ -12,6 +12,13 @@ Why not join us and say #hellobrum at the Undergraduate Open Days,
 @unibirmingham 
 ```
 
+
+
+I also appeared in some of these videos:
+
+https://twitter.com/SchoolofEng_UoB/status/1053649428723257344  
+
+https://twitter.com/eps_unibham/status/1053649538383335427  
 
 
 

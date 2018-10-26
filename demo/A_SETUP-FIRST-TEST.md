@@ -5,6 +5,7 @@ Setup for the first test of the demo
 One important variable is the number of version of the demo.
 
 
+* v06 for the Tue 23 Oct 15:35:17 BST 2018  (~/tmp/openday_v06)
 * v05 for the Fri 19 Oct 18:41:03 BST 2018 (~/tmp/openday_v05)
 * v04 for the 15th of September 2018 (~/tmp/openday_v04)
 * v03 for the 22th 23th of June 2018 (~/tmp/openday_v03)
@@ -16,7 +17,7 @@ One important variable is the number of version of the demo.
 1. Create path to save data
 
 ```
-mkdir -p ~/tmp/openday_v05
+mkdir -p ~/tmp/openday_v06
 ```
 
 2. tune the following parameters for the `~/catkin_ws/src/razor_imu_9dof/config/razor*.yaml` [2]
@@ -30,7 +31,7 @@ vim  ~/catkin_ws/src/razor_imu_9dof/config/razor4.yaml
 
 ```
 number_of_samples: 2000
-main_data_stream_path: /home/map479/tmp/openday_v05
+main_data_stream_path: /home/map479/tmp/openday_v06
 ```
 1000 samples ~ 20 seconds;   
 2000 samples ~ 40 seconds;   
@@ -115,6 +116,8 @@ Starting from sensor4, sensor3, sensor2 and sensor1
 Make sure that `openface_pNN.sh` is changing to the right path to save
 video files.
 
+/home/map479/mxochicale/github/opendayuob-hridemo/demo
+
 
 ```
 $  vim openface_pNN.sh
@@ -122,7 +125,7 @@ $  vim openface_pNN.sh
 
 then change version of openday vNN
 ```
-cd /home/map479/tmp/openday_v05 && mkdir -p openface && cd openface
+cd /home/map479/tmp/openday_v06 && mkdir -p openface && cd openface
 ```
 
 
@@ -143,7 +146,7 @@ Press `ctrl-q` to exit
 # DATA PATHS
 
 ```
-cd /home/map479/tmp/openday_v05
+cd /home/map479/tmp/openday_v06
 ```
 
 #  REFERENCE
