@@ -1,6 +1,6 @@
 
 
-* https://twitter.com/_mxochicale/status/1053554622940495872
+# https://twitter.com/_mxochicale/status/1053554622940495872
 
 
 ```
@@ -25,7 +25,7 @@ https://twitter.com/eps_unibham/status/1053649538383335427
 
 
 
-* `https://twitter.com/_mxochicale/status/1040885459235340289`
+# https://twitter.com/_mxochicale/status/1040885459235340289
 
 
 ```
@@ -41,7 +41,7 @@ MORE: https://github.com/mxochicale/opendayuob-hridemo
 
 
 
-* https://twitter.com/_mxochicale/status/1040031489533112320 
+# https://twitter.com/_mxochicale/status/1040031489533112320 
 
 This Saturday 15/09, @NaoRobot and I will be inspiring the next generation of Engineers at the Undergraduate Open Days #hellobrum!  "The mission is to make the world a better place with #Mechatronics, #Robotics & #AI " @SchoolofEng_UoB 
 MORE: https://github.com/mxochicale/opendayuob-hridemo
@@ -53,7 +53,7 @@ Thu Sep 13 01:22:35 BST 2018
 
 
 
-* https://twitter.com/_mxochicale/status/1010438307023646720
+# https://twitter.com/_mxochicale/status/1010438307023646720
 
 ```
 Join us at the Undergraduate Open Days #hellobrum! 
@@ -67,8 +67,8 @@ be at the frontier of innovations in such promising areas
 
 
 
-* https://twitter.com/_mxochicale/status/906470779545686016
-3:54 am - 9 Sep 2017 
+# https://twitter.com/_mxochicale/status/906470779545686016
+
 ```
 [@NaoRobot] is having fun at the OpenDay @unibirmingham @eps_unibham #hellobrum 
 Learn more about the demo at 
@@ -78,15 +78,19 @@ https://github.com/mxochicale/nao/tree/master/openday-uob
 At University of Birmingham
 ```
 
+3:54 am - 9 Sep 2017 
 
 
-* https://twitter.com/_mxochicale/status/878596576347918336
-5:52 am - 24 Jun 2017
+# https://twitter.com/_mxochicale/status/878596576347918336
+
 
 ```
 Inspiring the new generation of engineerings with a Human-Robot Imitation Demo at the OpenDay 
 @UniBirmingham @eps_bham #hellobrum – At University of Birmingham
 
 ```
+
+5:52 am - 24 Jun 2017
+
 
 

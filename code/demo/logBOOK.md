@@ -15,6 +15,12 @@ added: Fri 22 Jun 08:46:57 BST 2018
 # TODO
 
 
+* [ ] make it easy for the user to create a new version
+	stated in `AA_NAO_OPENFACE_SETUP.md`
+	Fri 22 Mar 16:13:26 GMT 2019
+
+
+
 *  [ ] craete a simple description of the experiment
 added: Thu 28 Jun 18:12:27 BST 2018
 

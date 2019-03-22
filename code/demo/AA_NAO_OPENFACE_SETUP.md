@@ -2,8 +2,9 @@ Setup demo for NAO and CAMERA (openface)
 ---
 One important variable is the number of version of the demo.
 
-* v07 for the Sat 16 Feb 10:11:42 GMT 2019  (~/tmp/openday_v07)
 
+* v08 for Fri 22 Mar 15:03:08 GMT 2019 (~/tmp/openday_v08)
+* v07 for the Sat 16 Feb 10:11:42 GMT 2019  (~/tmp/openday_v07)
 
 
 # Setting Up
@@ -11,7 +12,7 @@ One important variable is the number of version of the demo.
 1. Create path to save data
 
 ```
-mkdir -p ~/tmp/openday_v07
+mkdir -p ~/tmp/openday_v08
 ```
 
 
@@ -24,7 +25,7 @@ and open a terminal to execute nao's movements with the python script.
 ## TERMINAL 1
 
 ```
-cd ~/opendayuob-hridemo/nao_arm_movements/python_animation && python TenUpperArmMovements_changingspeed.py
+cd ~/dance-demo/code/nao_arm_movements/python_animation/ &&  python TenUpperArmMovements_changingspeed.py
 
 ```
 
@@ -36,7 +37,7 @@ is 34 seconds.
 
 # OPENFACE [3]
 Make sure that `sh openface_pNN.sh` is using the right path to save
-video files, that is: `cd /home/map479/tmp/openday_v07 && mkdir -p openface && cd openface`
+video files, that is: `cd /home/map479/tmp/openday_v08 && mkdir -p openface && cd openface`
 So, open file and edit it:
 
 ```
@@ -44,7 +45,7 @@ vim openface_pNN.sh
 ```
 then change version of openday vNN
 ```
-cd /home/map479/tmp/openday_v07 && mkdir -p openface && cd openface
+cd ~/tmp/openday_v08 && mkdir -p openface && cd openface
 ```
 
 
@@ -53,7 +54,7 @@ cd /home/map479/tmp/openday_v07 && mkdir -p openface && cd openface
 ## TERMINAL 3
 
 ```
-cd ~/mxochicale/github/opendayuob-hridemo/demo && sleep 10 && sh openface_pNN.sh pNNgXXaNN
+cd ~/dance-demo/code/demo && sleep 10 && sh openface_pNN.sh pNNgXXaNN
 ```
 sleep 10 seconds to wait for the instructions with NAO 
 
@@ -67,7 +68,7 @@ Press `ctrl-q` to exit
 # DATA PATHS
 
 ```
-cd ~/tmp/openday_v07
+cd ~/tmp/openday_v08
 ```
 
 #  REFERENCE
