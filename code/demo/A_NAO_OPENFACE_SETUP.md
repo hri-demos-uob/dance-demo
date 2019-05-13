@@ -61,6 +61,21 @@ Press `ctrl-q` to exit
 cd $HOME/hri/tmp/demo_v009 
 ```
 
+
+# USING ONE TERMINAL
+
+```
+cd $HOME/hri/hri-dance-demo/code/nao_arm_movements/python_animation && python TenUpperArmMovements_changingspeed.py & cd $HOME/hri/hri-dance-demo/code/demo && sh openface_pNN.sh p01 &
+```
+
+
+
+
+
+
+
+
+
 #  REFERENCE
 
 [1] [automatic_connection](https://github.com/mxochicale/ros/tree/master/bluetooth_dev_conf/automatic_connection)  
