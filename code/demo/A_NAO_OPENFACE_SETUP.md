@@ -16,13 +16,13 @@ mkdir -p $HOME/hri/tmp/demo_v009
 ```
 
 
-# NAO
+# TERMINAL 1 for NAO
+
+* NAO
 The boot process is completed when NAO says “OGNAK GNOUK” and it takes around
 2minutes 13 seconds, then you can establish the network connection with NAO
 (selecting NAO in the in the network options)
 and open a terminal to execute nao's movements with the python script.
-
-## TERMINAL 1
 
 
 ```
@@ -31,22 +31,20 @@ cd $HOME/hri/hri-dance-demo/code/nao_arm_movements/python_animation && python Te
 
 The execution time for 
 `sh TenUpperArmMovements_changingspeed.py`
-is 34 seconds.
+is 34 seconds plus 13 seconds for instructions and greetings
 
 
 
-# OPENFACE [3]
+# TERMINAL 2 for OPENFACE [3]
+
 Make sure that `sh openface_pNN.sh` is using the right path to save
 video files, that is: 
 `cd $HOME/hri/tmp/demo_v009 && mkdir -p openface && cd openface`
 
 
 
-
-## TERMINAL 2
-
 ```
-cd $HOME/hri/hri-dance-demo/code/demo && sleep 10 && sh openface_pNN.sh pNNgXXaNN
+cd $HOME/hri/hri-dance-demo/code/demo && sh openface_pNN.sh pNNgXXaNN
 ```
 sleep 10 seconds to wait for the instructions with NAO 
 
