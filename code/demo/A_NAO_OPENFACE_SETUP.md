@@ -2,7 +2,7 @@ Setup demo for NAO and CAMERA (openface)
 ---
 One important variable is the number of version of the demo.
 
-
+* `demo_v09` Mon 13 May 06:48:44 BST 2019
 * v08 for Fri 22 Mar 15:03:08 GMT 2019 (~/tmp/openday_v08)
 * v07 for the Sat 16 Feb 10:11:42 GMT 2019  (~/tmp/openday_v07)
 
@@ -12,7 +12,7 @@ One important variable is the number of version of the demo.
 1. Create path to save data
 
 ```
-mkdir -p ~/tmp/openday_v08
+mkdir -p $HOME/hri/tmp/demo_v009 
 ```
 
 
@@ -24,9 +24,9 @@ and open a terminal to execute nao's movements with the python script.
 
 ## TERMINAL 1
 
-```
-cd ~/dance-demo/code/nao_arm_movements/python_animation/ &&  python TenUpperArmMovements_changingspeed.py
 
+```
+cd $HOME/hri/hri-dance-demo/code/nao_arm_movements/python_animation && python TenUpperArmMovements_changingspeed.py
 ```
 
 The execution time for 
@@ -37,24 +37,16 @@ is 34 seconds.
 
 # OPENFACE [3]
 Make sure that `sh openface_pNN.sh` is using the right path to save
-video files, that is: `cd /home/map479/tmp/openday_v08 && mkdir -p openface && cd openface`
-So, open file and edit it:
+video files, that is: 
+`cd $HOME/hri/tmp/demo_v009 && mkdir -p openface && cd openface`
+
+
+
+
+## TERMINAL 2
 
 ```
-vim openface_pNN.sh
-```
-then change version of openday vNN
-```
-cd ~/tmp/openday_v08 && mkdir -p openface && cd openface
-```
-
-
-
-
-## TERMINAL 3
-
-```
-cd ~/dance-demo/code/demo && sleep 10 && sh openface_pNN.sh pNNgXXaNN
+cd $HOME/hri/hri-dance-demo/code/demo && sleep 10 && sh openface_pNN.sh pNNgXXaNN
 ```
 sleep 10 seconds to wait for the instructions with NAO 
 
@@ -68,7 +60,7 @@ Press `ctrl-q` to exit
 # DATA PATHS
 
 ```
-cd ~/tmp/openday_v08
+cd $HOME/hri/tmp/demo_v009 
 ```
 
 #  REFERENCE
@@ -76,7 +68,5 @@ cd ~/tmp/openday_v08
 [1] [automatic_connection](https://github.com/mxochicale/ros/tree/master/bluetooth_dev_conf/automatic_connection)  
 [2] Further information about package configuration [mx_razor_imu_9dof/catkin_ws](https://github.com/mxochicale/ros/tree/master/mx_razor_imu_9dof/catkin_ws)  
 [3] https://github.com/mxochicale/openface  
-
-
 
 
